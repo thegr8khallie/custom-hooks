@@ -10,6 +10,6 @@ In order to use these hooks, just follow the link to the particular hook that yo
 
 1. ### `useLocalStorage`
 
-This hook is used to make working with localStorage easier. It creates a stateful value that is stored in localStorage and a function to update this value.
+This hook is used to make working with localStorage easier. It creates a stateful value that is stored in localStorage and a function to update this value. This hook takes in two arguement: The key for the localStorage data (a string) and it's value.
 
 ### How to use
