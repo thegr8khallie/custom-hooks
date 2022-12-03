@@ -26,5 +26,3 @@ const useLocalStorage = (key, defaultValue) => {
 }
 
 export default useLocalStorage;
-
-//Courtesy of pyplane_code on instagram
