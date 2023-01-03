@@ -26,3 +26,17 @@ const useLocalStorage = (key, defaultValue) => {
 }
 
 export default useLocalStorage;
+
+//How to use
+
+const Usage = () => {
+
+const [state, setState] = useLocalStorage('key', 0);
+const handleIncrement = () => {
+   setState((i) => i++)
+}
+return (
+    <div>Count: {state}</div>
+    <button onClick={handleIncrement}>Increment</button>
+  )
+}
