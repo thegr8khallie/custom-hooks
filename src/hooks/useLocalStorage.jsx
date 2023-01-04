@@ -31,7 +31,7 @@ export default useLocalStorage;
 
 const Usage = () => {
 
-const [state, setState] = useLocalStorage('key', 0);
+const [state, setState] = useLocalStorage('counter', 0);
 const handleIncrement = () => {
    setState((i) => i++)
 }
